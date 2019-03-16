@@ -1,0 +1,2 @@
+# SwiftMapReduce
+Swift MapReduce implementation
