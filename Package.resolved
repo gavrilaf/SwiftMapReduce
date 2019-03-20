@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftPerfTool",
+        "repositoryURL": "https://github.com/gavrilaf/SwiftPerfTool.git",
+        "state": {
+          "branch": null,
+          "revision": "0f66cc25b648debace9d982a5c04a3dfab301ea1",
+          "version": "0.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
