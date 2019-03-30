@@ -21,7 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4651B40A2240BD4B003858B7 /* SumCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651B4092240BD4B003858B7 /* SumCount.swift */; };
+		4627237F224DE61200B9D698 /* SumsCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627237E224DE61200B9D698 /* SumsCounterTests.swift */; };
+		4651B40A2240BD4B003858B7 /* SumsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651B4092240BD4B003858B7 /* SumsCounter.swift */; };
 		OBJ_100 /* SwiftPerfTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* SwiftPerfTool.swift */; };
 		OBJ_107 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Package.swift */; };
 		OBJ_42 /* MapReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* MapReduce.swift */; };
@@ -97,7 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4651B4092240BD4B003858B7 /* SumCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumCount.swift; sourceTree = "<group>"; };
+		4627237E224DE61200B9D698 /* SumsCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumsCounterTests.swift; sourceTree = "<group>"; };
+		4651B4092240BD4B003858B7 /* SumsCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumsCounter.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		OBJ_14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -170,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* Counter.swift */,
-				4651B4092240BD4B003858B7 /* SumCount.swift */,
+				4651B4092240BD4B003858B7 /* SumsCounter.swift */,
 			);
 			name = MapReduceAlgo;
 			path = Sources/MapReduceAlgo;
@@ -199,6 +201,7 @@
 				OBJ_17 /* CounterTests.swift */,
 				OBJ_18 /* SplitTests.swift */,
 				OBJ_19 /* XCTestManifests.swift */,
+				4627237E224DE61200B9D698 /* SumsCounterTests.swift */,
 			);
 			name = MapReduceTests;
 			path = Tests/MapReduceTests;
@@ -246,7 +249,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -257,7 +260,6 @@
 				OBJ_22 /* Dependencies */,
 				OBJ_31 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -412,7 +414,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -452,7 +454,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_50 /* Counter.swift in Sources */,
-				4651B40A2240BD4B003858B7 /* SumCount.swift in Sources */,
+				4651B40A2240BD4B003858B7 /* SumsCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				4627237F224DE61200B9D698 /* SumsCounterTests.swift in Sources */,
 				OBJ_73 /* CounterTests.swift in Sources */,
 				OBJ_74 /* SplitTests.swift in Sources */,
 				OBJ_75 /* XCTestManifests.swift in Sources */,

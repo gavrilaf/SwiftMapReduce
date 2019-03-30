@@ -2,7 +2,7 @@ import MapReduce
 
 extension Collection where Element: Hashable {
     
-    public func count(where test: @escaping (Element) -> Bool, flows: Int = 2) -> Int {
+    public func count(where test: @escaping (Element) -> Bool) -> Int {
         return self.reduce(0) { test($1) ? $0 + 1 : $0 }
     }
     
